@@ -1,0 +1,466 @@
+/*个人信息页面*/
+/*信息列表开始*/
+.layout ul.info_list{
+    margin-top: 10px;
+}
+.layout ul.top{
+    margin-top: 56px;
+}
+.layout ul.info_list li{
+    position: relative;
+    background: #fff;
+    height: 43px;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 14px;
+    line-height: 43px;
+}
+.layout ul.info_list li.big_list{
+    height: 84px;
+    line-height: 84px;
+}
+.layout ul.info_list li .title{
+    position: absolute;
+    left: 4%;
+}
+.layout ul.info_list li .info{
+    position: absolute;
+    right: 4%;
+}
+.layout ul.info_list li .info img{
+    padding-top: 14px;
+}
+/*信息列表结束*/
+
+/*支付成功页面*/
+.zhan{
+    height: 56px;
+    background: #efefef;
+}
+.layout .big_div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.layout .big_div img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 63px;
+}
+.layout .big_div b{
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    width: 68px;
+    height: 21px;
+    margin-top: 35px;
+}
+.layout .big_div input{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 120px;
+    height: 35px;
+    background: url(../images/over.png) no-repeat;
+}
+/*首页*/
+.layout .header .right_icon img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 3%;
+    top: 12px;
+}
+.layout .help_list{
+    position: fixed;
+    bottom: -15px;
+    left: 2%;
+    z-index: 999;
+    width: 96%;
+    height: 125px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px -2px 8px #d1d1d1;
+}
+.layout .help_list li{
+    width: 33.333%;
+    height: 125px;
+    text-align: center;
+    float: left;
+}
+.layout .help_list li a img{
+    position: relative;
+    top: 22px;
+}
+.layout .help_list li a p{
+    position: relative;
+    top: 10px;
+}
+.amap-geo,.amap-copyright,.amap-logo{
+    display: none;
+}
+/*侧边栏区域开始*/
+.fifter{
+    width: 90%;
+    background: #fff;
+    border-left: 1px solid #f9f9f9;
+}
+.am-offcanvas{
+    background: rgba(0, 0, 0, 0.5);
+}
+.am-offcanvas-bar:after{
+    background: #fff;
+}
+.cav_header{
+    position: relative;
+    height: 140px;
+}
+.cav_header .star{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 2em;
+    box-shadow: 0px 0px 12px #e4e4e4;
+    overflow: hidden;
+    top: 44px;
+    left: 23px;
+}
+.cav_header .star img{
+    width: 60px;
+    height: 60px;
+}
+.cav_header .user_name{
+    font-size: 14px;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
+.cav_header .user_info{
+    font-size: 12px;
+    position: absolute;
+    left: 100px;
+    top: 67px;
+    color: #c1c1c1;
+}
+.cav_header .edit{
+    position: absolute;
+    right: 26px;
+    top: 40px;
+}
+.cav_header .edit img{
+    width: 22px;
+    height: 22px;
+}
+.fen{
+    width: 85%;
+    height: 2px;
+    background: #f9f9f9;
+    margin: 0 auto;
+}
+.fen2{
+    width: 85%;
+    height: 2px;
+    background: #f9f9f9;
+    margin: 0 auto;
+    position: relative;
+    top: 65px;
+}
+.cav_list li{
+    width: 33.33%;
+    height: 75px;
+    float: left;
+    text-align: center;
+}
+.cav_list li span{
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.cav_list li a.count{
+    display: block;
+    margin-top: 3px;
+    font-size: 13px;
+}
+.cav_list li a.btn{
+    display: block;
+    width: 70px;
+    height: 26px;
+    border: 1px solid #ff9d2a;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 24px;
+    color: #ff9d2a;
+    font-size: 13px;
+    margin: 0 auto;
+}
+.xx_list li{
+    width: 25%;
+    text-align: center;
+    float: left;
+    padding-top: 10px;
+}
+.xx_list li a img{
+    width: 25px;
+    height: 25px;
+}
+.xx_list li a p{
+    margin-top: 8px;
+    color: #929292;
+    font-size: 12px;
+}
+/*侧边栏区域结束*/
+/*价格明细页面*/
+.mx_info_title{
+    margin-top: 45px;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #f1f1f5;
+    background: #fff;
+}
+.mx_info_title li{
+    float: left;
+    width: 50%;
+    text-align: center;
+    height: 50px;
+    font-size: 13px;
+}
+.mx_info_title li:first-child{
+    border-right: 1px solid #f1f1f5;
+}
+.mx_info_title li p{
+    margin-top: 8px;
+}
+.mx_info_title li span{
+    position: relative;
+    top: 3px;
+}
+.mx_info_title li span.orange{
+    color: #ff9d2a
+}
+.mx_tishi{
+    background: #fff;
+    height: 30px;
+    line-height: 30px;
+    font-size: 11px;
+    color: #7a7a7a;
+    text-align: center;
+}
+.mx_price{
+    position: relative;
+    width: 94%;
+    height: 40px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 8px;
+    color: #7a7a7a;
+    font-size: 13px;
+    line-height: 40px;
+    padding-left: 8px;
+}
+.mx_price span{
+    position: absolute;
+    right: 12px;
+    top: 0;
+    font-size: 13px;
+}
+.mx_price span d{
+    color: #ff9d2a;
+}
+.mx_hui{
+    width: 94%;
+    height: 42px;
+    background: #fbfae6;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #525251;
+    line-height: 42px;
+    position: relative;
+}
+.mx_hui p{
+    padding-left: 8px;
+}
+.mx_hui span{
+    position: absolute;
+    right: 12px;
+    top: 0;
+    font-size: 13px;
+}
+.mx_hui span d{
+    color: #ff9d2a;
+}
+.mx_zhu{
+    display: block;
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 14px;
+    color: #525251;
+}
+.mx_map{
+    width: 94%;
+    height: 200px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 12px;
+}
+.mx_map .map_info{
+    height: 184px;
+    width: 96%;
+    background: gray;
+    margin: 0 auto;
+    position: relative;
+    top: 4%;
+    
+}
+.amap-zoomcontrol{
+    display: none;
+}
+/*收货地址页面*/
+.header .title span{
+    color: #9e9e9e;
+}
+.sh_dq{
+    margin-top: 46px;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    border-bottom: 1px solid #f1f1f5;
+    position: relative;
+    z-index: 8;
+}
+.sh_dq span{
+    color: #ff9d2a;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.sh_dq b{
+    position: absolute;
+    left: 70px;
+    top: 10px;
+}
+.sh_dq p{
+    position: absolute;
+    left: 20px;
+    top: 35px;
+    font-size: 12px;
+    color: #919191;
+}
+.sh_dq_info{
+    height: 40px;
+    background: #fff;
+    position: relative;
+    z-index: 8;
+}
+.sh_dq_info input{
+    display: block;
+    height: 40px;
+    text-indent: 20px;
+    width: 80%;
+}
+.sh_dq_info a{
+    display: block;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #fd7708;
+    border-radius: 3px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.sh_map{
+    height: 450px;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+.sh_map_title{
+    position: fixed;
+    width: 100%;
+    height: 39px;
+    background: #fff;
+    z-index: 999;
+    bottom: 177px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.sh_map_title .sh_map_fujin{
+    display: block;
+    color: #ff9424;
+    width: 33.333%;
+    height: 39px;
+    float: left;
+    line-height: 39px;
+    padding-left: 20px;
+}
+.sh_map_title .sh_map_fujin p{
+    display: block;
+    width: 75px;
+    height: 39px;
+    border-bottom: 1px solid #ff9424;
+    text-indent: 4px;
+}
+.sh_map_title .sh_map_fujin p i{
+    display: block;
+    width: 13px;
+    height: 16px;
+    background: url(../images/pp1.png) no-repeat;
+    float: left;
+    margin-top: 12px;
+}
+.sh_map_title .sh_map_old{
+    display: block;
+    width: 33.333%;
+    float: left;
+    line-height: 39px;
+    padding-left: 10px;
+}
+.sh_map_title .sh_map_old p{
+    display: block;
+    width: 75px;
+    height: 39px;
+    text-indent: 4px;
+}
+.sh_map_title .sh_map_old p i{
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/oo2.png) no-repeat;
+    float: left;
+    margin-top: 13px;
+}
+.sh_map_list{
+    position: fixed;
+    width: 100%;
+    color: #030303;
+    height: 177px;
+    overflow: scroll;
+    bottom: 0;
+    background: #fff;
+    z-index: 999;
+}
+.sh_map_list ul.old_list{
+    display: none;
+}
+.sh_map_list ul li{
+    height: 55px;
+    border-bottom: 1px solid #fafafa;
+    position: relative;
+}
+.sh_map_list ul li a p.sh_list_title{
+    font-size: 13px;
+    position: absolute;
+    left: 12px;
+    top: 10px;
+}
+.sh_map_list ul li a p.sh_list_info{
+    font-size: 11px;
+    color: #9d9d9d;
+    position: absolute;
+    left: 12px;
+    top: 30px;
+}
+.amap_lib_placeSearch_poi{
+    display: none;
+}
